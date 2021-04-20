@@ -1,0 +1,45 @@
+{
+  "name": "HooksLearning",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-addons-linked-state-mixin": "^15.6.2",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-multiselect": "^2.4.1",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^1.0.1"
+  }
+}
